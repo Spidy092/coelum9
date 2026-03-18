@@ -3,6 +3,8 @@
 <head>
     <!--#include file="includes/meta-tags.html" -->
     <title>Coelum9 - Cloud Engineering & AI Solutions</title>
+    <link rel="stylesheet" href="css/caelum.css">
+    <link rel="stylesheet" href="css/caelum-responsive.css">
 </head>
 <body>
 
@@ -15,36 +17,41 @@
         <div class="fluid-container">
             <div class="hero-grid">
                 <div class="hero-content">
-                    <span class="hero-badge">🚀 Cloud & AI Solutions</span>
-                    <h1>Accelerate <span class="highlight">Digital Transformation</span> with Cloud & AI</h1>
-                    <p class="hero-text">Empowering enterprises with cutting-edge cloud infrastructure, AI-driven solutions, and seamless digital experiences.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
-                        <a href="#services" class="btn btn-secondary">Our Services</a>
+                    <span class="hero-badge fade-in">
+                        <i class="fas fa-rocket"></i>
+                        Cloud & AI Solutions
+                    </span>
+                    <h1 class="fade-in">Accelerate <span class="highlight">Digital Transformation</span> with Cloud & AI</h1>
+                    <p class="hero-text fade-in">Empower your enterprise with cutting-edge cloud engineering and artificial intelligence solutions. Scale faster, innovate smarter.</p>
+                    <div class="hero-buttons fade-in">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-arrow-right"></i>
+                            Get Started
+                        </a>
+                        <a href="#services" class="btn btn-outline">
+                            Our Services
+                        </a>
                     </div>
-                    <div class="hero-stats">
+                    <div class="hero-stats fade-in">
                         <div class="stat-item">
                             <div class="stat-banner"></div>
-                            <span class="stat-number" data-target="120">0</span>
-                            <span class="stat-suffix">K+</span>
+                            <span class="stat-number">120K+</span>
                             <span class="stat-label">Clients Served</span>
                         </div>
                         <div class="stat-item">
                             <div class="stat-banner"></div>
-                            <span class="stat-number" data-target="150">0</span>
-                            <span class="stat-suffix">+</span>
+                            <span class="stat-number">150+</span>
                             <span class="stat-label">Projects Delivered</span>
                         </div>
                         <div class="stat-item">
                             <div class="stat-banner"></div>
-                            <span class="stat-number" data-target="32">0</span>
-                            <span class="stat-suffix">K+</span>
+                            <span class="stat-number">32K+</span>
                             <span class="stat-label">Cloud Deployments</span>
                         </div>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="images/banner/image 87.png" alt="Cloud Technology">
+                <div class="hero-image fade-in">
+                    <img src="images/banner/image 87.png" alt="Cloud and AI Solutions" loading="lazy">
                 </div>
             </div>
         </div>
@@ -56,21 +63,24 @@
     <section class="about" id="about">
         <div class="fluid-container">
             <div class="about-grid">
-                <div class="about-image">
-                    <img src="images/abt img.png" alt="About Coelum9">
+                <div class="about-image fade-in">
+                    <img src="images/abt img.png" alt="About Coelum9" loading="lazy">
                 </div>
                 <div class="about-content">
-                    <span class="section-badge">About Us</span>
-                    <h2>About <span class="highlight">Coelum9</span></h2>
-                    <p class="about-lead">We are a team of cloud architects, AI engineers, and DevOps specialists passionate about transforming businesses through technology.</p>
-                    <p>Founded with a vision to democratize enterprise-grade cloud and AI solutions, Coelum9 has helped over 120,000 clients across industries achieve digital excellence.</p>
-                    <ul class="about-features">
+                    <span class="section-badge fade-in">About Us</span>
+                    <h2 class="fade-in">About <span class="highlight">Coelum9</span></h2>
+                    <p class="about-lead fade-in">We are a team of cloud architects, AI engineers, and DevOps specialists passionate about transforming businesses through technology.</p>
+                    <p class="fade-in">Founded with a vision to democratize enterprise-grade cloud and AI solutions, Coelum9 has helped over 120,000 clients across industries achieve digital excellence.</p>
+                    <ul class="about-features fade-in">
                         <li><i class="fas fa-check-circle"></i> 24/7 Expert Support</li>
                         <li><i class="fas fa-check-circle"></i> 99.9% Uptime SLA</li>
                         <li><i class="fas fa-check-circle"></i> Enterprise Security</li>
                         <li><i class="fas fa-check-circle"></i> Global Infrastructure</li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-primary fade-in">
+                        <i class="fas fa-arrow-right"></i>
+                        Learn More
+                    </a>
                 </div>
             </div>
         </div>
@@ -82,12 +92,12 @@
     <section class="services" id="services">
         <div class="fluid-container">
             <div class="section-header">
-                <span class="section-badge">Our Services</span>
-                <h2>Cloud & AI Solutions for <span class="highlight">Modern Enterprises</span></h2>
-                <p>Transform your business with our comprehensive suite of cloud and AI services</p>
+                <span class="section-badge fade-in">Our Services</span>
+                <h2 class="fade-in">Cloud & AI Solutions for <span class="highlight">Modern Enterprises</span></h2>
+                <p class="fade-in">Transform your business with our comprehensive suite of cloud and AI services</p>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card fade-in">
                     <div class="service-icon">
                         <i class="fas fa-cloud-upload-alt"></i>
                     </div>
@@ -95,7 +105,7 @@
                     <p>Scalable cloud infrastructure designed for performance, reliability, and cost-efficiency.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card featured">
+                <div class="service-card featured fade-in">
                     <div class="service-badge">Popular</div>
                     <div class="service-icon">
                         <i class="fas fa-brain"></i>
@@ -104,7 +114,7 @@
                     <p>Harness the power of artificial intelligence to automate, innovate, and accelerate growth.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card fade-in">
                     <div class="service-icon">
                         <i class="fas fa-database"></i>
                     </div>
@@ -112,7 +122,7 @@
                     <p>Turn raw data into actionable insights with modern data pipelines and analytics.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card fade-in">
                     <div class="service-icon">
                         <i class="fas fa-cogs"></i>
                     </div>
@@ -130,41 +140,41 @@
     <section class="technologies" id="technologies">
         <div class="fluid-container">
             <div class="section-header">
-                <span class="section-badge">Technologies</span>
-                <h2>Technologies & <span class="highlight">Platforms</span></h2>
-                <p>We work with industry-leading technologies to deliver best-in-class solutions</p>
+                <span class="section-badge fade-in">Technologies</span>
+                <h2 class="fade-in">Technologies & <span class="highlight">Platforms</span></h2>
+                <p class="fade-in">We work with industry-leading technologies to deliver best-in-class solutions</p>
             </div>
             <div class="tech-grid">
-                <div class="tech-item">
-                    <img src="images/icons/mdi_aws.png" alt="AWS">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/mdi_aws.png" alt="AWS" loading="lazy">
                     <span>AWS</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/azure.png" alt="Azure">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/azure.png" alt="Azure" loading="lazy">
                     <span>Azure</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/google.png" alt="Google Cloud">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/google.png" alt="Google Cloud" loading="lazy">
                     <span>Google Cloud</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/docker.png" alt="Docker">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/docker.png" alt="Docker" loading="lazy">
                     <span>Docker</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/pajamas_kubernetes.png" alt="Kubernetes">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/pajamas_kubernetes.png" alt="Kubernetes" loading="lazy">
                     <span>Kubernetes</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/python.png" alt="Python">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/python.png" alt="Python" loading="lazy">
                     <span>Python</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/ai-ml.png" alt="AI/ML">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/ai-ml.png" alt="AI/ML" loading="lazy">
                     <span>AI/ML</span>
                 </div>
-                <div class="tech-item">
-                    <img src="images/icons/devops.png" alt="DevOps">
+                <div class="tech-item fade-in">
+                    <img src="images/icons/devops.png" alt="DevOps" loading="lazy">
                     <span>DevOps</span>
                 </div>
             </div>
@@ -177,26 +187,26 @@
     <section class="process" id="process">
         <div class="fluid-container">
             <div class="section-header">
-                <span class="section-badge">Our Process</span>
-                <h2>How We <span class="highlight">Work</span></h2>
-                <p>A proven methodology to deliver successful outcomes</p>
+                <span class="section-badge fade-in">Our Process</span>
+                <h2 class="fade-in">How We <span class="highlight">Work</span></h2>
+                <p class="fade-in">A proven methodology to deliver successful outcomes</p>
             </div>
             <div class="process-grid">
-                <div class="process-step">
+                <div class="process-step fade-in">
                     <div class="step-number">01</div>
                     <div class="step-content">
                         <h3>Discovery & Assessment</h3>
                         <p>We analyze your current infrastructure, identify pain points, and understand your business goals.</p>
                     </div>
                 </div>
-                <div class="process-step">
+                <div class="process-step fade-in">
                     <div class="step-number">02</div>
                     <div class="step-content">
                         <h3>Strategy & Planning</h3>
                         <p>We design a tailored roadmap with clear milestones, timelines, and success metrics.</p>
                     </div>
                 </div>
-                <div class="process-step">
+                <div class="process-step fade-in">
                     <div class="step-number">03</div>
                     <div class="step-content">
                         <h3>Execution & Support</h3>
@@ -216,18 +226,18 @@
         </div>
         <div class="fluid-container">
             <div class="section-header">
-                <span class="section-badge">Testimonials</span>
-                <h2>What Our <span class="highlight">Clients Say</span></h2>
-                <p>Trusted by leading enterprises worldwide</p>
+                <span class="section-badge fade-in">Testimonials</span>
+                <h2 class="fade-in">What Our <span class="highlight">Clients Say</span></h2>
+                <p class="fade-in">Trusted by leading enterprises worldwide</p>
             </div>
-            <div class="testimonial-slider">
+            <div class="testimonial-slider fade-in">
                 <div class="testimonial-card active">
                     <div class="testimonial-quote">
                         <i class="fas fa-quote-left"></i>
                     </div>
                     <p class="testimonial-text">"Coelum9 transformed our infrastructure. We reduced costs by 40% while improving performance 3x. Their AI solutions have been game-changing for our business."</p>
                     <div class="testimonial-author">
-                        <img src="images/test-human.png" alt="Client" class="author-avatar">
+                        <img src="images/test-human.png" alt="Rajesh Kumar" class="author-avatar" loading="lazy">
                         <div class="author-info">
                             <span class="author-name">Rajesh Kumar</span>
                             <span class="author-role">CTO, TechVentures India</span>
@@ -240,7 +250,7 @@
                     </div>
                     <p class="testimonial-text">"The team at Coelum9 delivered our cloud migration ahead of schedule. Their expertise in AWS and Kubernetes is unmatched. Highly recommended!"</p>
                     <div class="testimonial-author">
-                        <img src="images/test-human.png" alt="Client" class="author-avatar">
+                        <img src="images/test-human.png" alt="Priya Sharma" class="author-avatar" loading="lazy">
                         <div class="author-info">
                             <span class="author-name">Priya Sharma</span>
                             <span class="author-role">VP Engineering, DataFlow Systems</span>
@@ -253,7 +263,7 @@
                     </div>
                     <p class="testimonial-text">"Working with Coelum9 was a pleasure. They understood our needs and delivered a solution that exceeded our expectations. Our DevOps pipeline is now fully automated."</p>
                     <div class="testimonial-author">
-                        <img src="images/test-human.png" alt="Client" class="author-avatar">
+                        <img src="images/test-human.png" alt="Amit Patel" class="author-avatar" loading="lazy">
                         <div class="author-info">
                             <span class="author-name">Amit Patel</span>
                             <span class="author-role">Founder, CloudScale Labs</span>
@@ -262,9 +272,9 @@
                 </div>
             </div>
             <div class="testimonial-nav">
-                <button class="nav-dot active" data-index="0"></button>
-                <button class="nav-dot" data-index="1"></button>
-                <button class="nav-dot" data-index="2"></button>
+                <button class="nav-dot active" data-index="0" aria-label="Testimonial 1"></button>
+                <button class="nav-dot" data-index="1" aria-label="Testimonial 2"></button>
+                <button class="nav-dot" data-index="2" aria-label="Testimonial 3"></button>
             </div>
         </div>
     </section>
@@ -272,15 +282,18 @@
     <!-- ═══════════════════════════════════════════════════════════════════════════════
          CTA SECTION
          ═══════════════════════════════════════════════════════════════════════════════ -->
-    <section class="cta-section">
+    <section class="cta-section" id="cta">
         <div class="cta-bg">
-            <img src="images/section/CTA-Section.png" alt="" class="cta-bg-img">
+            <img src="images/section/CTA-Section.png" alt="" class="cta-bg-img" loading="lazy">
         </div>
         <div class="fluid-container">
             <div class="cta-content">
-                <h2>Scale Faster with <span class="highlight">Cloud & AI</span></h2>
-                <p>Join 120,000+ businesses already transforming with Coelum9</p>
-                <a href="#contact" class="btn btn-primary btn-large">Get Started Today <i class="fas fa-arrow-right"></i></a>
+                <h2 class="fade-in">Scale Faster with <span class="highlight">Cloud & AI</span></h2>
+                <p class="fade-in">Join 120,000+ businesses already transforming with Coelum9</p>
+                <a href="#contact" class="btn btn-primary btn-large fade-in">
+                    <i class="fas fa-arrow-right"></i>
+                    Get Started Today
+                </a>
             </div>
         </div>
     </section>
